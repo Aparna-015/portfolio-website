@@ -18,17 +18,14 @@ import captivo from "./assets/company_logo/captivo.png";
 import logo from "./assets/company_logo/NIT-logo.png";
 import regional from "./assets/company_logo/regional.jpg";
 
-
 import cas from "./assets/education_logo/cas.png";
 import schoollogo from "./assets/education_logo/SCHOOL.jpg";
 import mjschoollogo from "./assets/education_logo/MJSCHOOL.jpg";
-
 
 // Project Section Logo's
 import githubdetLogo from "./assets/work_logo/videostream.jpg";
 import islanddays from "./assets/work_logo/islanddays.jpg";
 import aiapp from "./assets/work_logo/AIAPP.jpg";
-
 
 export const SkillsInfo = [
   {
@@ -50,9 +47,6 @@ export const SkillsInfo = [
   },
 ];
 
-
-
-
 export const experiences = [
   {
     id: 0,
@@ -69,7 +63,7 @@ export const experiences = [
       "Tailwind CSS",
       "Redux",
       "Figma",
-      "Git"
+      "Git",
     ],
   },
   {
@@ -78,11 +72,9 @@ export const experiences = [
     role: "Content writer",
     company: "Captivo, Calicut",
     date: "Sept 2023 - April 2024",
-    desc:"Researched, wrote, and edited high-quality content across diverse topics, ensuring accuracy, SEO optimization, and alignment with brand voice and audience needs. Interpreted content briefs to transform ideas into engaging, informative writing, while managing deadlines efficiently and maintaining high standards of quality",
+    desc: "Researched, wrote, and edited high-quality content across diverse topics, ensuring accuracy, SEO optimization, and alignment with brand voice and audience needs. Interpreted content briefs to transform ideas into engaging, informative writing, while managing deadlines efficiently and maintaining high standards of quality",
 
-    skills: ["Content writing","word"
-     
-    ],
+    skills: ["Content writing", "word"],
   },
   {
     id: 2,
@@ -91,32 +83,23 @@ export const experiences = [
     company: "NIT Calicut",
     date: "April 2022 - March 2023",
     desc: "Offered exceptional administrative support to office staff, contributing to the smooth and efficient execution of daily operations. Provided clerical assistance across departments, ensuring timely and accurate completion of administrative tasks.",
-    skills: ["Microsoft Office Suite (Word, Excel, PowerPoint)", "Google Workspace"," email clients"],
+    skills: [
+      "Microsoft Office Suite (Word, Excel, PowerPoint)",
+      "Google Workspace",
+      " email clients",
+    ],
   },
 
-   {
+  {
     id: 3,
-    img:regional,
+    img: regional,
     role: "Software Associate",
     company: "Regional Technologies, Calicut",
     date: "Dec 2019 - May 2020",
     desc: "Learned software engineering best practices and process improvements while assisting in the design and development of projects, contributing to efficient and maintainable codebases",
-    skills: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Tailwind CSS",
-   "Python",
-      "Git"
-    ],
+    skills: ["HTML", "CSS", "JavaScript", "Python", "Git"],
   },
 ];
-
-
-
-
-
-
 
 export const education = [
   {
@@ -136,7 +119,7 @@ export const education = [
   },
   {
     id: 2,
-    img:schoollogo ,
+    img: schoollogo,
     school: "GVHSS Neeleswaram, Mukkam, (Kozhikode), Kerala",
     date: "june 2011 - March 2013",
     degree: "PLUS TWO",
@@ -146,16 +129,9 @@ export const education = [
     img: mjschoollogo,
     school: "MJHSS Elettil,kozhikode",
     date: " March 2011",
-   degree: "SSLC",
+    degree: "SSLC",
   },
 ];
-
-
-
-
-
-
-
 
 export const projects = [
   {
@@ -165,8 +141,7 @@ export const projects = [
       "A powerful, responsive video streaming application built with React.js and Redux, featuring dynamic video listings, seamless playback functionality, and real-time content updates",
     image: githubdetLogo,
     tags: ["HTML", "CSS", "JavaScript", "React JS", "Redux Toolkit"],
-    github:
-      "https://github.com/Aparna-015/VIDEO-STREAM",
+    github: "https://github.com/Aparna-015/VIDEO-STREAM",
     webapp: "https://videos-streaming.netlify.app/",
   },
   {
@@ -175,13 +150,7 @@ export const projects = [
     description:
       " A responsive travel planning web application designed to help users plan their trips to the Lakshadweep Islands with ease and clarity. The platform features API integration, user engagement elements, destination listings, filtering options, detailed destination pages with booking capabilities, and seamless navigation for a smooth user experience.",
     image: islanddays,
-    tags: [
-      "React JS",
-      "Redux Toolkit",
-      "TailwindCSS",
-      "Axios"
-      
-    ],
+    tags: ["React JS", "Redux Toolkit", "TailwindCSS", "Axios"],
     github: "https://github.com/Aparna-015/project",
     webapp: "https://islanddays.in/",
   },
@@ -190,70 +159,9 @@ export const projects = [
     title: "Nex AI-Bot App",
     description:
       " An AI-powered chatbot application developed using React.js and Tailwind CSS, designed to simulate intelligent conversations and provide instant responses. The app features a sleek UI, real-time message handling, and smooth animations to enhance user interaction.",
-    image:  aiapp,
-    tags: ["React JS","Context API" ,"HTML", "CSS", "JavaScript"],
+    image: aiapp,
+    tags: ["React JS", "Context API", "HTML", "CSS", "JavaScript"],
     github: "https://github.com/Aparna-015/MY-AI-BOT-APP",
     webapp: "https://ai-app-ss.netlify.app/",
   },
-  ];
-  // {
-  //   id: 3,
-  //   title: "Email Validator NPM Package",
-  //   description:
-  //     "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
-  //   image: npmLogo,
-  //   tags: ["React JS", "Node.js", "NPM", "Validation"],
-  //   github: "https://github.com/codingmastr/cmtk-email-validator",
-  //   webapp: "https://www.npmjs.com/package/cmtk-email-validator",
-  // },
-  // {
-  //   id: 4,
-  //   title: "Task Reminder Chrome Extension Tool",
-  //   description:
-  //     "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
-  //   image: taskremLogo,
-  //   tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-  //   github: "https://github.com/codingmastr/Task-Reminder-Tool",
-  //   webapp: "chrome://extensions/?id=kngheeibjnnidhfoomkpnbeghackheci",
-  // },
-  // {
-  //   id: 5,
-  //   title: "Webverse Digital",
-  //   description:
-  //     "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
-  //   image: webverLogo,
-  //   tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-  //   github: "https://github.com/codingmastr/Webverse-Digital",
-  //   webapp: "https://webversedigital.com/",
-  // },
-  // {
-  //   id: 6,
-  //   title: "Coding Master",
-  //   description:
-  //     "An ed-tech platform where users can access tech and coding-related blogs, notes, interview questions, e-books, and premium content with payment integration. Built with full-stack technologies for a seamless learning experience.",
-  //   image: cmLogo,
-  //   tags: ["React JS", "Node.js", "MongoDB", "Express", "Payment Integration"],
-  //   github: "https://codingmasterweb.in/",
-  //   webapp: "https://codingmasterweb.in/",
-  // },
-  // {
-  //   id: 7,
-  //   title: "Image Search App",
-  //   description:
-  //     "A React.js-based image search application that allows users to search and download high-quality images from the web. Built using external APIs to ensure a vast library of results for various queries.",
-  //   image: imagesearchLogo,
-  //   tags: ["React JS", "API", "Search Feature", "CSS", "Javascript"],
-  //   github: "https://github.com/codingmastr/Image-Search-App",
-  //   webapp: "https://imagsearch.netlify.app/",
-  // },
-  // {
-  //   id: 8,
-  //   title: "Image Background Remover",
-  //   description:
-  //     "An efficient background removal app built with React.js and API integration. Users can upload any image, remove the background, and download the transparent version for further use.",
-  //   image: removebgLogo,
-  //   tags: ["React JS", "API", "Image Processing", "HTML", "CSS", "Javascript"],
-  //   github: "https://github.com/codingmastr/Image-Background-Remover",
-  //   webapp: "https://removeyourbg.netlify.app/",
-  // },
-
+];

@@ -4,9 +4,9 @@ import ReactTypingEffect from 'react-typing-effect';
 const About = () => {
   return (
     <section
-      id="about"
-      className="py-4 px-[7vw] md:px-[7vw] lg:px-[20vw] font-sans mt-16 md:mt-24 lg:mt-28"
-    >
+  id="about"
+  className="scroll-mt-24 py-6 px-[7vw] md:px-[7vw] lg:px-[20vw] font-sans mt-16 md:mt-24 lg:mt-28"
+>
       <div className="flex flex-col-reverse md:flex-row justify-between items-center">
         {/* Left Side */}
         <div className="w-full text-center md:text-left mt-8 md:mt-0">
@@ -38,7 +38,7 @@ const About = () => {
             />
           </h3>
           {/* About Me Paragraph */}
-          <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-8 mt-5 leading-relaxed">
+          <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-6 mt-5 leading-relaxed">
            I am a self-taught front-end developer with hands-on experience in building high-performance, scalable, and responsive web applications. I specialize in HTML5, CSS3, Tailwind CSS, and Redux Toolkit, and have strong expertise in the React.js framework. Passionate about learning new technologies, I continuously strive to enhance my skills and create intuitive, user-friendly digital experiences.
           </p>
           {/* Resume Button */}
